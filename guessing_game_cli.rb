@@ -1,7 +1,6 @@
 # Code your solution here!
 require 'pry' 
 
-
 def run_guessing_game
   input = gets.chomp 
   random = rand(6) + 1
