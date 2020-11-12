@@ -11,5 +11,6 @@ def run_guessing_game
     puts "You guessed the correct number!"
   else input != random 
     puts "Sorry! The computer guessed #{random}."
-  end 
+  end
+  binding.pry 
 end 
