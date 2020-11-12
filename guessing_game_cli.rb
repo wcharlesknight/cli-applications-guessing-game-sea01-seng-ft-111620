@@ -2,8 +2,9 @@
 require 'pry' 
 
 def run_guessing_game
-  random = rand(6) + 1
   input = gets.chomp
+  random = rand(6) + 1
+  
   if input == "exit"
     puts "Goodbye!"
   elsif input == random
