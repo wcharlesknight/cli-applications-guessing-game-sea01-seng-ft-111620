@@ -1,11 +1,9 @@
 # Code your solution here!
 require 'pry' 
-def input_s
-  input = gets.chomp
-end 
+
 
 def run_guessing_game
-  input_s
+  input = gets.chomp 
   random = rand(6) + 1
   
   if input == "exit"
